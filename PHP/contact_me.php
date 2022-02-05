@@ -4,10 +4,10 @@ include '../PHP/templates/header.tpl.php';
 
 ?>
 
+<h1 class="title-other_pages"><span>J|M|D</span> web development</h1>
     <h1><span>c</span>ontact me</h1>
         <main>
             <body>
-                
                     <form action="" method="post">
                         <fieldset>
                             <div>

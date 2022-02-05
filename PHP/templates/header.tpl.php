@@ -11,11 +11,27 @@
 
     <nav>
         <ul>
-            <li><a href="../PHP/Index.php">home</a></li>
-            <li><a href="../PHP/lastest_projects.php">lastest projects</a></li>
-            <li><a href="../PHP/testimonials.php">testimonials</a></li>
-            <li><a href="../PHP/about_me.php">about me</a></li>
-            <li><a href="../PHP/contact_me.php">contact</a></li>
+
+        <?php
+
+        $nav = [
+            'home' => '../PHP/Index.php',
+            'lastest projects' => '../PHP/lastest_projects.php',
+            'testimonials' => '../PHP/testimonials.php',
+            'about me' => '../PHP/about_me.php',
+            'contact' => '../PHP/contact_me.php',
+        ];
+        ?>
+
+        <?php
+        foreach ($nav as $name => $link) : 
+            ?>
+            <li><a href="<?= $link ?>"><?= $name ?></a></li>
+
+        <?php endforeach; ?>
+
+       
+            
         </ul>
     </nav>
 
