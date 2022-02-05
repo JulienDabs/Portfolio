@@ -1,25 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jmd web development</title>
+<?php
 
-    <link rel="stylesheet" href="../CSS/reset.css">
-    <link rel="stylesheet" href="../CSS/style.css">
+include '../PHP/templates/header.tpl.php';
 
-    <nav>
-        <ul>
-            <li><a href=""></a>home</li>
-            <li><a href=""></a>lastest projects</li>
-            <li><a href=""></a>testimonials</li>
-            <li><a href=""></a>about me</li>
-            <li><a href=""></a>contact</li>
-        </ul>
-    </nav>
-
-</head>
+?>
     <main>
         <body>
             <section>

@@ -1,27 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>jmd web development</title>
+<?php
 
-    <link rel="stylesheet" href="../CSS/reset.css">
-    <link rel="stylesheet" href="../CSS/style.css">
+include '../PHP/templates/header.tpl.php';
 
-    <nav>
-        <ul>
-            <li><a href=""></a>home</li>
-            <li><a href=""></a>lastest projects</li>
-            <li><a href=""></a>testimonials</li>
-            <li><a href=""></a>about me</li>
-            <li><a href=""></a>contact</li>
-        </ul>
-    </nav>
+?>
 
-</head>
-
-    <h1>contact me</h1>
+    <h1><span>c</span>ontact me</h1>
         <main>
             <body>
                 
@@ -29,12 +12,12 @@
                         <fieldset>
                             <div>
                                 <label for="firstname">your first name:</label>
-                                <input type="text" name="firstname" value="firstname">
+                                <input type="text" name="firstname" value="">
                                 
                             </div>
                             <div>
                                 <label for="lastname">your last name:</label>
-                                <input type="text" name="lastname" value="lastname">
+                                <input type="text" name="lastname" value="">
                                 
                             </div>
                             <div>
@@ -44,9 +27,7 @@
                             </div>
                             <div>
                                 <label for="details">your needs/specifications</label>
-                                <textarea name="details" id="details" cols="30" rows="10">i need...</textarea>
-                                
-                                
+                                <textarea name="details" id="details" cols="30" rows="5"></textarea>                                
                             </div>
                             <div>
                                 <label for="tel">your phone number</label>
@@ -58,31 +39,22 @@
                                 <input type="email" name="email" id="email">
                             </div>
                                 <button>Submit your information</button>
-                            <?php 
-                            
-                            var_dump($_POST);
-
-                            if (!empty($_POST)) {
-
-                                $first = $_POST['firstname'];
-                                $last = $_POST['lastname'];
-                                $webPages = intval($_POST['web']);
-                                $details = $_POST['details'];
-                                $tel = $_POST['tel'];
-                                $email = $_POST['email'];
-
-                             } else {
-
-                                echo "Please fill the form";
-
-                                }
-
-                          
-                            
-                            
-                            ?>
+                           
                     </fieldset>
                 </form>
+
+                <?php         
+                if (!empty($_POST)) {
+                    $first = $_POST['firstname'];
+                    $last = $_POST['lastname'];
+                    $webPages = $_POST['web_pages'];
+                    $details = $_POST['details'];
+                    $tel = $_POST['tel'];
+                    $email = $_POST['email'];
+                    } else {
+                    echo "Please fill the form!";
+                    }
+                ?>
             </body>
         </main>
     <footer>
