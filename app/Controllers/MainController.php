@@ -1,8 +1,8 @@
 <?php
 
-namespace portfolio\Controllers;
+namespace App\Controllers;
 
-use App\Models\Category;
+
 
 
 // Si j'ai besoin du Model Category
@@ -20,15 +20,10 @@ class MainController extends CoreController
         // On appelle la méthode show() de l'objet courant
         // En argument, on fournit le fichier de Vue
         // Par convention, chaque fichier de vue sera dans un sous-dossier du nom du Controller
-       
-
-
-               
-       
+              
         $this->show('main/home', [
             'page_title' => 'Home',
-            
-         ]);
+                     ]);
     }
 
     

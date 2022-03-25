@@ -1,6 +1,6 @@
 <?php
 
-namespace Portfolio\Controllers;
+namespace App\Controllers;
 
 class CoreController
 {
@@ -13,11 +13,7 @@ class CoreController
      */
     protected function show(string $viewName, $viewData = [])
     {
-        // On globalise $router car on ne sait pas faire mieux pour l'instant
-        global $router;
-
-        
-
+               
         // Comme $viewData est déclarée comme paramètre de la méthode show()
         // les vues y ont accès
         // ici une valeur dont on a besoin sur TOUTES les vues
