@@ -2,7 +2,7 @@
     <main>
         <body>
             <h1 class="title-other_pages"><span>J|M|D</span> web development</h1>
-            <section>
+            <section class="bio">
                 <h2><span>A</span>bout Me</h2>
                 <p>Born in South of France, I spent the first 20 years of my life working in the hospitality industry arround the world. This experience brought me several skills such as:</p>
                 <ul>

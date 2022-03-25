@@ -33,8 +33,49 @@ $router->map(
         'method' => 'home',
         'controller' => '\App\Controllers\MainController' // On indique le FQCN de la classe
     ],
-    'main-home'
+    'main_home'
 );
+
+$router->map(
+    'GET',
+    '/contact',
+    [
+        'method' => 'contact',
+        'controller' => '\App\Controllers\FormController' // On indique le FQCN de la classe
+    ],
+    'contact_me'
+);
+
+$router->map(
+    'GET',
+    '/about',
+    [
+        'method' => 'about',
+        'controller' => '\App\Controllers\MainController' // On indique le FQCN de la classe
+    ],
+    'about_me'
+);
+
+$router->map(
+    'GET',
+    '/testimonials',
+    [
+        'method' => 'testimonials',
+        'controller' => '\App\Controllers\MainController' // On indique le FQCN de la classe
+    ],
+    'testimonials'
+);
+
+$router->map(
+    'GET',
+    '/projects',
+    [
+        'method' => 'projects',
+        'controller' => '\App\Controllers\MainController' // On indique le FQCN de la classe
+    ],
+    'latest_projects'
+);
+
 
 
 /* -------------

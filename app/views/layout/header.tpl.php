@@ -14,15 +14,16 @@
 
         <?php
 
-       
-
         $nav = [
-            'lastest projects' => '../PHP/lastest_projects.php',
-            'testimonials' => '../PHP/testimonials.php',
-            'home' => '../PHP/Index.php',
-            'about me' => '../PHP/about_me.php',
-            'contact' => '../PHP/contact_me.php',
+             'lastest projects' => $router->generate('latest_projects'),
+             'testimonials' => $router->generate('testimonials'),
+             'home' => $router->generate('main_home'),
+             'about me' => $router->generate('about_me'),
+             'contact' => $router->generate('contact_me'),
         ];
+
+        
+
         ?>
 
         <?php

@@ -13,6 +13,8 @@ class CoreController
      */
     protected function show(string $viewName, $viewData = [])
     {
+
+        global $router;
                
         // Comme $viewData est déclarée comme paramètre de la méthode show()
         // les vues y ont accès

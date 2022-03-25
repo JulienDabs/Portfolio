@@ -1,26 +1,54 @@
 body {
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background: url(../pictures/background-contact-me.jpg);
-  background-position: center ;
+  background-position: center;
 }
+
+nav {
+  padding: 1em;
+  width: 75%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+main {
+  width: 67%;
+  margin-right: auto;
+  margin-left: auto;
+}
+
 h1 {
   font-size: 2.5em;
   text-transform: capitalize;
 }
+
 h1 span {
   color: rgba(206, 135, 64,0.5);
   font-weight: 100;
   font-size: 1.5em;
 }
+
+h2 span {
+  color: rgba(206, 135, 64,0.5);
+  font-weight: 100;
+  font-size: 1.5em;
+}
+
 .title-index{
   text-align: center;
   word-spacing: 0.5em;
   margin: 1.1em;
   line-height: 1.5em;
 }
+
 h2 {
   font-size: 2em;
 }
+
+section {
+  padding: 0 2em 4em;
+}
+
 label {
   margin: 1.5em;
   padding: 1.5em; 
@@ -32,6 +60,7 @@ label {
   margin: 1.5em;
   text-transform: uppercase;
 }
+
 a {
   text-decoration: none;
   color: black;
@@ -39,8 +68,9 @@ a {
 }
 
 a:hover {
-  color: rgba(206,135,64,0.5);
-  transform: scale(1.9);
+  color: rgba(206, 135, 64, 0.658);
+  transition-delay: 5ms;
+  font-weight: bolder;
   
 }
 
@@ -63,8 +93,10 @@ h1.title-other_pages {
   margin-right: 2em;
   padding: 1em;
 }
+
 h1.title-contact_me {
-  margin: 1em;
+  margin: 0em;
+  font-size: 3em;
 }
 
 .container-contact_me {
@@ -80,12 +112,34 @@ textarea {
   height: 1.3em;
   text-align: center;
 }
+
 textarea {
-  height: auto;
+  height: 14em;
+  padding: 1em;
+  width: 17em;
+  font-size: 1.5em;
 }
+
 .contact_me--web_pages {
-  width: 3.9em;
+  width: 18.9em;
+  height: 2em;
+  font-size: 1.2em;
 }
+input.contact_me--input {
+  width: 19em;
+  height: 2em;
+  font-size: 1.2em;
+}
+
+button {
+  margin: 2em;
+  width: 16em;
+  height: 3em;
+  font-size: 1em;
+  border: none;
+  background-color: rgb(206 135 64 / 80%);
+}
+
 footer {
   text-align: center;
   font-size: 0.7em;
