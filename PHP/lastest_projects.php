@@ -5,7 +5,7 @@ include '../PHP/templates/header.tpl.php';
 ?>
     <main>
         <body>
-            <h1 class="title-other_pages"><span>J|M|D</span> web development</h1>
+            <h1 class="title-other_pages"><span>J<span>|</span>M<span>|</span>D</span> web development</h1>
             <section>
                 <h2>Web Creation</h2>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, recusandae deserunt aliquam nihil similique laboriosam atque minima dolorum! Commodi cum laborum molestias neque, laboriosam adipisci iusto optio numquam accusamus! Voluptates?</p>
@@ -21,7 +21,7 @@ include '../PHP/templates/header.tpl.php';
 
         </body>
     </main>
-    <footer>
 
-    </footer>
-</html>
+    <?php
+    include 'templates/footer.tpl.php';
+    ?>

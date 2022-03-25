@@ -14,7 +14,7 @@ h1 span {
 }
 .title-index{
   text-align: center;
-  word-spacing: 1em;
+  word-spacing: 0.5em;
   margin: 1.1em;
   line-height: 1.5em;
 }
@@ -26,22 +26,22 @@ label {
   padding: 1.5em; 
 }
 
-ul {
+ ul {
   display: flex;
-  justify-content: space-around;
-  margin: 1em;
+  justify-content: space-evenly;
+  margin: 1.5em;
   text-transform: uppercase;
 }
 a {
   text-decoration: none;
   color: black;
+  transition: all .2s ease-in-out;
 }
 
 a:hover {
-  font-weight: bolder;
-  transform: scale(3.5);
-  background-color: rgba(206,135,64,0.5);
-  border-radius: 70%;
+  color: rgba(206,135,64,0.5);
+  transform: scale(1.9);
+  
 }
 
 form {
@@ -62,4 +62,32 @@ h1.title-other_pages {
   line-height: 2em;
   margin-right: 2em;
   padding: 1em;
+}
+h1.title-contact_me {
+  margin: 1em;
+}
+
+.container-contact_me {
+  text-align: center;
+  position: initial;
+  margin-top: -6em;
+}
+
+input,
+textarea {
+  border: none;
+  background-color: rgb(206 135 64 / 25%);
+  height: 1.3em;
+  text-align: center;
+}
+textarea {
+  height: auto;
+}
+.contact_me--web_pages {
+  width: 3.9em;
+}
+footer {
+  text-align: center;
+  font-size: 0.7em;
+  margin-top:5em;
 }

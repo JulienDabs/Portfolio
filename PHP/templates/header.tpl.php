@@ -15,9 +15,9 @@
         <?php
 
         $nav = [
-            'home' => '../PHP/Index.php',
             'lastest projects' => '../PHP/lastest_projects.php',
             'testimonials' => '../PHP/testimonials.php',
+            'home' => '../PHP/Index.php',
             'about me' => '../PHP/about_me.php',
             'contact' => '../PHP/contact_me.php',
         ];

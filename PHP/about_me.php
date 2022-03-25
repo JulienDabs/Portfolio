@@ -7,8 +7,8 @@ include '../PHP/templates/header.tpl.php';
         <body>
             <h1 class="title-other_pages"><span>J|M|D</span> web development</h1>
             <section>
-                <h2><span>W</span>eb Creation</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus, recusandae deserunt aliquam nihil similique laboriosam atque minima dolorum! Commodi cum laborum molestias neque, laboriosam adipisci iusto optio numquam accusamus! Voluptates?</p>
+                <h2><span>A</span>bout Me</h2>
+                <p>Born in South of France, I </p>
             </section>
             <section>
                 <h2><span>T</span>echnologies Used</h2>

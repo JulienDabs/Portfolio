@@ -1,41 +1,40 @@
 <?php
-
 include '../PHP/templates/header.tpl.php';
-
 ?>
 
 <h1 class="title-other_pages"><span>J|M|D</span> web development</h1>
-    <h1><span>c</span>ontact me</h1>
+   <div class="container-contact_me">
+    <h1 class="title-contact_me"><span>c</span>ontact me</h1>
         <main>
             <body>
                     <form action="" method="post">
                         <fieldset>
                             <div>
-                                <label for="firstname">your first name:</label>
+                                <label for="firstname">your first name</label><br>
                                 <input type="text" name="firstname" value="">
                                 
                             </div>
                             <div>
-                                <label for="lastname">your last name:</label>
+                                <label for="lastname">your last name</label><br>
                                 <input type="text" name="lastname" value="">
                                 
                             </div>
                             <div>
-                                <label for="web_pages">how many web pages do you want to create?</label>
-                                <input type="number" name="web_pages" value="web_pages">
+                                <label for="web_pages" >how many web pages do you want to create?</label><br>
+                                <input type="number" name="web_pages" value="web_pages" class="contact_me--web_pages">
                                 
                             </div>
                             <div>
-                                <label for="details">your needs/specifications</label>
+                                <label for="details">your needs/specifications</label><br>
                                 <textarea name="details" id="details" cols="30" rows="5"></textarea>                                
                             </div>
                             <div>
-                                <label for="tel">your phone number</label>
+                                <label for="tel">your phone number</label><br>
                                 <input type="tel" name="tel" id="tel">
                                 
                             </div>
                             <div>
-                                <label for="email">my email is:</label>
+                                <label for="email">your email adress</label><br>
                                 <input type="email" name="email" id="email">
                             </div>
                                 <button>Submit your information</button>
@@ -57,9 +56,8 @@ include '../PHP/templates/header.tpl.php';
                 ?>
             </body>
         </main>
-    <footer>
-        <hr>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perspiciatis atque sint quod, fuga voluptas voluptates in cupiditate accusamus asperiores unde repudiandae illo ipsum praesentium, at voluptatum! Ad non eius tempore, enim architecto aliquid voluptas nobis magnam quod pariatur hic nostrum!</p>
-
-    </footer>
-</html>
+    </div>
+    
+    <?php
+    include 'templates/footer.tpl.php';
+    ?>
