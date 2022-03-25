@@ -1,0 +1,16 @@
+{
+    "name": "student/portfolio",
+    "description": "Personal portfolio",
+    "authors": [
+        {
+            "name": "JulienDabs",
+            "email": "j.dabadie81@gmail.com"
+        }
+    ],
+    "require": {
+        "symfony/var-dumper": "^5.4",
+        "altorouter/altorouter": "^2.0",
+        "benoclock/alto-dispatcher": "^1.3"
+    }
+    
+}

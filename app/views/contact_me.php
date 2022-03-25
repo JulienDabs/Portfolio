@@ -1,6 +1,3 @@
-<?php
-include '../PHP/templates/header.tpl.php';
-?>
 
 <h1 class="title-other_pages"><span>J|M|D</span> web development</h1>
    <div class="container-contact_me">
@@ -42,22 +39,8 @@ include '../PHP/templates/header.tpl.php';
                     </fieldset>
                 </form>
 
-                <?php         
-                if (!empty($_POST)) {
-                    $first = $_POST['firstname'];
-                    $last = $_POST['lastname'];
-                    $webPages = $_POST['web_pages'];
-                    $details = $_POST['details'];
-                    $tel = $_POST['tel'];
-                    $email = $_POST['email'];
-                    } else {
-                    echo "Please fill the form!";
-                    }
-                ?>
             </body>
         </main>
     </div>
     
-    <?php
-    include 'templates/footer.tpl.php';
-    ?>
+   

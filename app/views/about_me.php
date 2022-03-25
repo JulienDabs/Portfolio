@@ -1,8 +1,4 @@
-<?php
 
-include '../PHP/templates/header.tpl.php';
-
-?>
     <main>
         <body>
             <h1 class="title-other_pages"><span>J|M|D</span> web development</h1>
