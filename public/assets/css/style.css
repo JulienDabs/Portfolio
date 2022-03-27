@@ -1,5 +1,5 @@
 body {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-family: 'Montserrat', sans-serif;
   background: url(../pictures/background-contact-me.jpg);
   background-position: center;
 }
@@ -84,6 +84,7 @@ fieldset {
 }
 
 h1.title-other_pages {
+  
   font-size: 1.5em;
   display: flex;
   justify-content: flex-end;
@@ -144,4 +145,8 @@ footer {
   text-align: center;
   font-size: 0.7em;
   margin-top:5em;
+}
+
+.bio {
+  padding: 1em 1em 1em 0em;
 }
