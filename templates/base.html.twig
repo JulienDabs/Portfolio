@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" href="{{ asset('assets/css/reset.css')}}">
+		<link rel="stylesheet" href="{{ asset('assets/css/style.css')}}">
+		<style>
+			@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500 &family=Roboto:ital,wght@0,400;1,100&display=swap');
+		</style>
+		<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN"
+
+        crossorigin="anonymous">
+
+		<title>
+			{% block title %}J|M|D Web Developper{% endblock %}
+		</title>
+		<nav>
+			<ul class="nav">
+				<li><a class="nav-link" href="{{ path ('home') }}">home</a></li>
+				<li><a class="nav-link" href="{{ path ('lastest') }}">lastest projects</a></li>
+				<li><a class="nav-link" href="{{ path ('bio') }}">about me</a></li>
+				<li><a class="nav-link" href="{{ path ('contact') }}">contact</a></li>
+			</ul>
+		</nav>
+	</head>
+	<body>
+		{% block body %}{% endblock %}
+	</body>
+	<footer>
+		<p>JMD Web Development</p>
+		<p>All Rights Reserved</p>
+	</footer>
+</html>
